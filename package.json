@@ -1,0 +1,35 @@
+{
+  "name": "static-http",
+  "version": "0.0.1",
+  "description": "Simple static file server, like http://htmlb.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saibotsivad/static-http.git"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "static"
+  ],
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/saibotsivad/static-http/issues"
+  },
+  "homepage": "https://github.com/saibotsivad/static-http",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "compression": "^1.4.4",
+    "connect": "^3.3.5",
+    "express": "^4.13.3",
+    "promise": "^7.0.4",
+    "then-denodeify": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
