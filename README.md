@@ -1,5 +1,7 @@
 # static-http
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/static-http.svg)](https://greenkeeper.io/)
+
 Wow this is a mess.
 
 But if you want to give it a try, run `node server.js` and then
